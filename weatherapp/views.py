@@ -11,11 +11,12 @@ def home(request):
     else:
          city = 'nagpur'     
 
-    url = f'' # Weather API key
+    url = f'' # OpenWeatherMap API 
+
     PARAMS = {'units':'metric'}
 
     API_KEY = ''  # Google City Images API
-    SEARCH_ENGINE_ID = '' # Search Engine API:
+    SEARCH_ENGINE_ID = '' # Search Engine API
 
     query = city + " 1920x1080"
     page = 1
